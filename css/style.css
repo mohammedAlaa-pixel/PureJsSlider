@@ -1,0 +1,67 @@
+body{
+    background-color:oldlace;
+}
+
+img{
+    border-radius: 5%
+}
+.img-caption{
+    background-color:transparent;
+    text-align: center;  
+}
+
+.elec{
+    height:56.5%;
+    width:100%
+}
+.bio{
+    height: 57%;
+    width:100%;
+}
+.mec{
+    height:57%;
+    width:100%
+}
+.container{
+    background-color: oldlace;
+   
+}
+.com{
+height:75%;
+width:100%
+}
+.item{
+    cursor:pointer;
+    margin-bottom: 30px;
+}
+#lightbox{
+    position: fixed;
+    display: none;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    background-color: rgba(0,0,0,0.5);
+}
+#lightboxitem
+{
+    width:50%;
+    height:500px;
+    background-image: url(../images/comm.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    position: relative;
+}
+#close{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+#prev ,#next{
+    margin: 10px;;
+}
+#lightboxitem i {
+font-size: 20px;
+font-weight: bold;
+color: blanchedalmond;
+}
